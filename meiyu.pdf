@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta name="Generator" content="DSpace 3.1" />
+<link type="text/css" rel="stylesheet" media="screen" href="/themes/Nus/lib/style.css" />
+<link type="application/opensearchdescription+xml" rel="search" href="http://scholarbank.nus.edu.sg:80/open-search/description.xml" title="DSpace" />
+<script type="text/javascript">
+                //Clear default text of empty text areas on focus
+                function tFocus(element)
+                {
+                if (element.value == ' '){element.value='';}
+                }
+                //Clear default text of empty text areas on submit
+                function tSubmit(form)
+                {
+                var defaultedElements = document.getElementsByTagName("textarea");
+                for (var i=0; i != defaultedElements.length; i++){
+                if (defaultedElements[i].value == ' '){
+                defaultedElements[i].value='';}}
+                }
+                //Disable pressing 'enter' key to submit a form (otherwise pressing 'enter' causes a submission to start over)
+                function disableEnterKey(e)
+                {
+                var key;
+
+                if(window.event)
+                key = window.event.keyCode; //Internet Explorer
+                else
+                key = e.which; //Firefox and Netscape
+
+                if(key == 13) //if "Enter" pressed, then disable!
+                return false;
+                else
+                return true;
+                }
+                var arrowLeftSrc = '/themes/Nus/images/menu-rounded-arrow-left.png';
+                var arrowDownSrc = '/themes/Nus/images/menu-rounded-arrow-down.png';
+                var arrowOnlyLeftSrc = '/themes/Nus/images/arrowonlyleft.png';
+                var arrowOnlyDownSrc = '/themes/Nus/images/arrowonlydown.png';
+                </script>
+<script xmlns:i18n="http://apache.org/cocoon/i18n/2.1" type="text/javascript" src="/themes/Nus/lib/jquery-1.8.3.min.js">
+                     
+                </script>
+<script type="text/javascript" src="/themes/Nus/lib/utils.js">
+                     
+                </script>
+<title>ScholarBank@NUS: Terms of Use</title>
+<link xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" rel="shortcut icon" href="/themes/Nus/images/favicon.ico" />
+</head>
+<body>
+<div id="ds-main">
+<div id="header">
+<h1 class="ir">
+<a style="text-decoration: none;" href="http://www.nus.edu.sg/">National University of Singapore
+                    <span> </span>
+</a>
+</h1>
+<div id="pointermenu2">
+<ul>
+<li>
+<a href="http://exchange.nus.edu.sg/" target="_blank">
+<span style="text-transform: none;">myEMAIL</span>
+</a>
+</li>
+<li>
+<a href="https://ivle.nus.edu.sg/lms/default.aspx" target="_blank">ivle</a>
+</li>
+<li>
+<a href="http://www.lib.nus.edu.sg/" target="_blank">library</a>
+</li>
+<li>
+<a href="http://www.nus.edu.sg/campusmap/">maps</a>
+</li>
+<li>
+<a href="http://www.nus.edu.sg/registrar/calendar.html">calendar</a>
+</li>
+<li>
+<a href="http://www.nus.edu.sg/sitemap.php">sitemap</a>
+</li>
+<li>
+<a href="http://www.nus.edu.sg/contactus.php">contact</a>
+</li>
+<li>
+<a href="#" id="rightcorner"> </a>
+</li>
+</ul>
+</div>
+<div id="searchform">
+<script type="text/javascript">
+                     
+                    </script>
+<form id="frmSearch" name="frmSearch" onsubmit="evalSearch();return false">
+<a href="http://www.nus.edu.sg/search/" style="text-decoration: none; font-size: 11px; font-weight: bold; color: rgb(102, 102, 102);">Search
+                    </a>
+<input id="txtKeyword" name="txtKeyword" value="search for..." onfocus="value=''" class="equal" size="18" type="Text" />
+                    in
+                    <select id="SearchMenu" name="SearchMenu">
+<option selected="" value="0">NUS Websites</option>
+<option value="1">Internet</option>
+<option value="2">Staff Directory</option>
+<option value="3">Advanced Search</option>
+</select>
+<input class="equal" id="Go" type="image" src="/themes/Nus/images/go.jpg" />
+</form>
+</div>
+</div>
+<div id="menu">
+<ul>
+<li>
+<a href="/">Home</a>
+</li>
+<li>
+<a style="width: 180px; padding-right:20px;" href="/about&#10;                                    ">
+                                    About ScholarBank@NUS
+                                </a>
+</li>
+<li>
+<a id="menu_sub_resource" href="javascript:void(0);">Resources</a>
+<ul id="menu_sub_resource_drop">
+<li>
+<a class="menuover" href="/information/copyright">
+                                            Copyright
+                                        </a>
+</li>
+<li>
+<a class="menuover" target="_blank" href="http://www.sherpa.ac.uk/romeo/">
+                                            SHERPA/RoMEO
+                                        </a>
+</li>
+<li>
+<a target="_blank" class="menuover" href="http://www.arl.org/sparc/author/addendum.shtml">
+                                            SPARC Addendum
+                                        </a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/faq&#10;                                    ">
+                                    FAQ
+                                </a>
+</li>
+</ul>
+</div>
+<div id="title">
+             
+        </div>
+<table id="content">
+<tr>
+<td id="ds-body">
+<h1 class="ds-div-head">USE OF THIS WEBSITE</h1>
+<div id="com_atmire_app_xmlui_termsofuse_TermsOfUseTransformer_div_terms-of-use" class="ds-static-div">
+<p class="ds-paragraph">
+            ScholarBank@NUS is available to both users seeking to deposit their works online and users who would like to access and reference the works of others.
+        </p>
+<p class="ds-paragraph">
+            Users who deposit a work into ScholarBank@NUS must be the original author of that work and also ensure that the work does not infringe the rights, including copyright, of any third party.
+            If third party material is incorporated into such work, the user must ensure that permission from the owner of such third party material has been obtained for its incorporation and for the submission and use of the same for purposes of ScholarBank@NUS.
+        </p>
+<p class="ds-paragraph">
+            Users who deposit their work into ScholarBank@NUS retain the copyright to their work but are required to grant the University a royalty-free, irrevocable, perpetual and non-exclusive licence to use and reproduce the work.
+        </p>
+<p class="ds-paragraph">
+            The terms of the licence are available <a href="/license" class="" target="_blank">here</a>.
+        </p>
+<p class="ds-paragraph">
+            Unless otherwise specified, all works in ScholarBank@NUS can be accessed, printed and/or downloaded by users for their own academic research, private study and teaching purposes.
+            Under no circumstances shall users access and use the works of others in ScholarBank@NUS for commercial purposes or for dissemination to another person or entity.
+        </p>
+<p class="ds-paragraph">
+            All users of ScholarBank@NUS are required to observe the Terms of Use.
+            The full text of the Terms of Use is available <a href="/termsofuse-full" class="" target="_blank">here</a>.
+        </p>
+</div>
+<form id="termsofuse_TermsOfUseTransformer_div_terms-of-use" class="ds-interactive-div " action="termsofuse" method="post" onsubmit="javascript:tSubmit(this);">
+<div id="termsofuse_TermsOfUseTransformer_div_terms-of-use-action" class="ds-static-div termsofuseractiondiv">
+<p class="ds-paragraph">I have carefully read and fully understood the Terms of Use and agree to accept the same.</p>
+<p xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" class="ds-paragraph">
+<input xmlns:i18n="http://apache.org/cocoon/i18n/2.1" id="termsofuse_TermsOfUseTransformer_field_submit_tos_accept" class="ds-button-field" name="submit_tos_accept" type="submit" value="I Accept" />
+</p>
+</div>
+</form>
+</td>
+</tr>
+</table>
+<div id="footer">
+<div class="inner">
+<div class="left">
+<p>© Copyright 2001-2013 National University of Singapore. All Rights Reserved.</p>
+<p>
+<a href="/termsofuse-full">
+                            Terms of Use
+                        </a>
+                        |
+                        <a href="http://www.nus.edu.sg/policy.php">Privacy</a>
+                        |
+                        <a href="http://www.nus.edu.sg/nondiscrim.php">Non-discrimination</a>
+</p>
+</div>
+<div class="right">
+<p class="copy">
+                        Powered by HP/MIT's DSpace, Version 3.1, OAI-compliant
+                        <br />Last modified on 16 May, 2013 by <a href="http://www.lib.nus.edu.sg">NUS Libraries</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
