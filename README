@@ -1,3 +1,81 @@
 https://github.com/datamade/csvdedupe#csvlink-usage
 
 http://link.springer.com/book/10.1007%2F978-3-642-31164-2
+
+## NICAR emails
+From Neal:
+
+    Schema matching has been around for a while in the database community.  As
+    you are discovering, at a very gross level of abstraction, there are two
+    approaches: semantic and syntactic.  The former (semantic) focuses on the
+    content and the values of the data within the data "tables" to match across
+    two different repositories.  The latter (syntactic) focus on both schema
+    "column" names as well as the the structure and relationship of
+    "dimensions" within the schemas (I keep putting these terms in quotes
+    because their meaning is shifting as the world of databases evolves).
+    
+    As you can imagine, there are trade-offs with either set of approaches.
+     Ken Smith and Len Seligman (and colleagues) have done some good work in
+    the syntactic matching world.  They have an architecture called OpenII.
+     One of the components is called Harmony.  A search on "seligman openii"
+    brings up relevant hits.  They have both overview papers and deeper
+    technical dives.  They're also pretty good about citing their work
+    (disclaimer: I worked with Ken and Len years ago).
+    
+    Neal
+    
+    Neal J. Rothleder, PhD
+    CTO - ORBmedia
+
+From Martin:
+
+    Thanks, Neal. Syntactic matching seems like an important part of what I'm
+    just learning is called "information integration." Looks like Smith and
+    Seligman have done a lot of work matching database schemas in the real
+    world (as seen in their overview
+    paper<http://www.cs.berkeley.edu/~kuangc/publications/sigmod10-openii.pdf>).
+    Here's a link to their Harmony component, which does syntactic matching.
+    http://openii.sourceforge.net/index.php?act=tools&page=harmony
+    
+    Many times, however, the schema of open datasets is largely missing, so the
+    best results might be found by blending syntactic and semantic approaches.
+    Googling around with my newfound keywords ("semantic information
+    integration tools") it seems like semantic data integration is now focused
+    on creating an ontology (structure) and matching your incoming data sources
+    to this single structure. (One project is called
+    Karma<http://www.isi.edu/integration/karma/>
+    .)
+    
+    I suppose I had always conceived of an organic structure that was developed
+    from the data at hand, but some great work has been done on creating
+    statistical data ontologies by SDMX <http://sdmx.org/> partner
+    organizations like Eurostat and the UN.
+    
+    Martin
+    
+
+From Forest:
+
+    Hi Martin,
+    
+    Thanks for clarifying. If I wanted a semi-automated way of finding similar
+    columns, then I would probably approach it this way.
+    
+    1. Choose a set of distance metrics for collections. For two string
+    columns, like job description, I might treat the an entire column as a
+    "document" made up of all the "phrases" in each row. I would then use the
+    cosine similarity between two columns, as a measure of the similarity
+    between two columns. For numeric columns (including boolean), I would
+    create a histogram for each column and then use something like the
+    chi-square statistic as a measure of the distance between columns.
+    
+    2. You will have a combinatorial explosion of possible comparisons, so I
+    would use some sort of blocking scheme to only compare columns that have
+    share something in common.
+    
+    It wouldn't be too difficult to extend dedupe to do this. If and when this
+    is a real problem, we should chat.
+    
+    Best,
+    
+    Forest
